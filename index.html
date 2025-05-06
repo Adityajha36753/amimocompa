@@ -3,54 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime Character Battle Comparer | Who Would Win in a Fight?</title>
-    <meta name="description" content="Compare anime characters in hypothetical battles. Use our AI-powered tool to determine who would win in a fight between any anime characters from different series.">
-    <meta name="keywords" content="anime battle, character comparison, who would win, anime fight, anime character powers, anime versus, battle simulator, anime matchup">
+    <title>Anime Battle Blog | Character Matchups & Analysis</title>
+    <meta name="description" content="Explore in-depth analysis of hypothetical anime character battles. Read about matchups, power comparisons, and who would win in fights between popular anime characters.">
+    <meta name="keywords" content="anime battles, character matchups, anime fight analysis, who would win, anime versus, battle predictions, anime character comparison">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://animebattlecomparer.com/">
+    <link rel="canonical" href="https://animebattlecomparer.com/blog/">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://animebattlecomparer.com/">
-    <meta property="og:title" content="Anime Character Battle Comparer | Who Would Win?">
-    <meta property="og:description" content="Compare any anime characters in a battle scenario. Our AI analyzes powers, abilities, and strengths to determine the likely winner.">
-    <meta property="og:image" content="https://animebattlecomparer.com/images/og-image.jpg">
+    <meta property="og:url" content="https://animebattlecomparer.com/blog/">
+    <meta property="og:title" content="Anime Battle Blog | Character Matchups & Analysis">
+    <meta property="og:description" content="Explore in-depth analysis of hypothetical anime character battles. Read about matchups, power comparisons, and who would win in fights between popular anime characters.">
+    <meta property="og:image" content="https://animebattlecomparer.com/images/blog-banner.jpg">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://animebattlecomparer.com/">
-    <meta property="twitter:title" content="Anime Character Battle Comparer | Who Would Win?">
-    <meta property="twitter:description" content="Compare any anime characters in a battle scenario. Our AI analyzes powers, abilities, and strengths to determine the likely winner.">
-    <meta property="twitter:image" content="https://animebattlecomparer.com/images/og-image.jpg">
+    <meta property="twitter:url" content="https://animebattlecomparer.com/blog/">
+    <meta property="twitter:title" content="Anime Battle Blog | Character Matchups & Analysis">
+    <meta property="twitter:description" content="Explore in-depth analysis of hypothetical anime character battles. Read about matchups, power comparisons, and who would win in fights between popular anime characters.">
+    <meta property="twitter:image" content="https://animebattlecomparer.com/images/blog-banner.jpg">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="icon" type="image/png" href="../favicon.ico">
     
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID" crossorigin="anonymous"></script>
-    <script type="module" src="script.js" defer></script>
     
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Anime Battle Comparer",
-      "url": "https://animebattlecomparer.com",
-      "description": "Compare anime characters in hypothetical battles. Use our AI-powered tool to determine who would win in a fight between any anime characters from different series.",
-      "applicationCategory": "EntertainmentApplication",
-      "operatingSystem": "Web",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "creator": {
+      "@type": "Blog",
+      "name": "Anime Battle Blog",
+      "url": "https://animebattlecomparer.com/blog/",
+      "description": "Explore in-depth analysis of hypothetical anime character battles. Read about matchups, power comparisons, and who would win in fights between popular anime characters.",
+      "publisher": {
         "@type": "Organization",
-        "name": "Anime Battle Comparer"
+        "name": "Anime Battle Comparer",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://animebattlecomparer.com/images/logo.png"
+        }
       }
     }
     </script>
@@ -62,14 +57,17 @@
             <div class="container mx-auto px-4 py-6">
                 <div class="flex justify-between items-center">
                     <h1 class="text-3xl font-bold text-white flex items-center">
-                        <i class="fas fa-bolt mr-2 text-yellow-400"></i>
-                        <span class="gradient-text">Anime Battle Comparer</span>
+                        <a href="../index.html" class="flex items-center">
+                            <i class="fas fa-bolt mr-2 text-yellow-400"></i>
+                            <span class="gradient-text">Anime Battle Comparer</span>
+                        </a>
                     </h1>
                     <nav>
                         <ul class="flex space-x-6">
-                            <li><a href="#" class="hover:text-yellow-400 transition-colors">Home</a></li>
-                            <li><a href="#about" class="hover:text-yellow-400 transition-colors">About</a></li>
-                            <li><a href="#contact" class="hover:text-yellow-400 transition-colors">Contact</a></li>
+                            <li><a href="../index.html" class="hover:text-yellow-400 transition-colors">Home</a></li>
+                            <li><a href="../index.html#about" class="hover:text-yellow-400 transition-colors">About</a></li>
+                            <li><a href="#" class="text-yellow-400 transition-colors">Blog</a></li>
+                            <li><a href="../index.html#contact" class="hover:text-yellow-400 transition-colors">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -78,156 +76,131 @@
 
         <!-- Main Content -->
         <main class="flex-grow container mx-auto px-4 py-8">
-            <!-- Hero Section -->
+            <!-- Blog Header -->
             <section class="text-center mb-12 py-12 hero-section">
-                <h2 class="text-4xl font-bold mb-4">Compare Anime Characters</h2>
-                <p class="text-xl text-gray-300 mb-8">Who would win in a battle? Let AI decide!</p>
-                <div class="max-w-3xl mx-auto bg-gray-800 p-6 rounded-lg shadow-xl">
-                    <div id="characters-container" class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                        <!-- Character 1 -->
-                        <div class="character-card bg-gray-700 p-4 rounded-lg shadow-md transform hover:scale-105 transition-transform">
-                            <div class="mb-4">
-                                <label class="block text-gray-300 mb-2">Character 1</label>
-                                <input type="text" class="character-input w-full bg-gray-600 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Enter anime character name">
-                            </div>
-                            <div class="mb-4">
-                                <label class="block text-gray-300 mb-2">Anime/Series</label>
-                                <input type="text" class="anime-input w-full bg-gray-600 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Enter anime/series name">
-                            </div>
-                            <div class="character-image-container h-48 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                                <p class="text-gray-400">Character image will appear here</p>
-                            </div>
-                        </div>
-
-                        <!-- Character 2 -->
-                        <div class="character-card bg-gray-700 p-4 rounded-lg shadow-md transform hover:scale-105 transition-transform">
-                            <div class="mb-4">
-                                <label class="block text-gray-300 mb-2">Character 2</label>
-                                <input type="text" class="character-input w-full bg-gray-600 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Enter anime character name">
-                            </div>
-                            <div class="mb-4">
-                                <label class="block text-gray-300 mb-2">Anime/Series</label>
-                                <input type="text" class="anime-input w-full bg-gray-600 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Enter anime/series name">
-                            </div>
-                            <div class="character-image-container h-48 bg-gray-800 rounded-lg flex items-center justify-center mb-4">
-                                <p class="text-gray-400">Character image will appear here</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Add Character Button -->
-                    <div class="text-center mb-6">
-                        <button id="add-character" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full transition-colors shadow-lg">
-                            <i class="fas fa-plus mr-2"></i> Add Another Character
-                        </button>
-                    </div>
-
-                    <!-- Compare Button -->
-                    <div class="text-center">
-                        <button id="compare-btn" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold px-8 py-3 rounded-full transition-colors shadow-lg pulse-animation">
-                            <i class="fas fa-bolt mr-2"></i> Compare Powers
-                        </button>
-                    </div>
-                </div>
+                <h2 class="text-4xl font-bold mb-4">Anime Battle Blog</h2>
+                <p class="text-xl text-gray-300 mb-8">In-depth analysis of hypothetical anime character battles</p>
             </section>
 
-            <!-- Google Ad -->
-            <div class="ad-container my-8 text-center">
-                <!-- Google AdSense Ad Unit -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
-                     data-ad-slot="YOUR_AD_SLOT_ID"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
+            <!-- Blog Posts Grid -->
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <!-- Blog Post 1 -->
+                <article class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <a href="goku-vs-saitama.html" class="block">
+                        <div class="h-48 bg-gray-700 flex items-center justify-center">
+                            <p class="text-gray-400 text-center px-4">Goku vs Saitama Battle Image</p>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 hover:text-yellow-400">Goku vs Saitama: Who Would Win?</h3>
+                            <p class="text-gray-400 mb-4">An in-depth analysis of a battle between Dragon Ball's Goku and One Punch Man's Saitama.</p>
+                            <div class="flex items-center text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i> Dec 15, 2023</span>
+                                <span class="mx-2">•</span>
+                                <span><i class="far fa-clock mr-1"></i> 8 min read</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
 
-            <!-- Results Section -->
-            <section id="results-section" class="hidden mb-12">
-                <h3 class="text-2xl font-bold mb-6 text-center">Battle Analysis</h3>
-                <div class="bg-gray-800 p-6 rounded-lg shadow-xl">
-                    <div class="flex justify-center mb-6 battle-animation">
-                        <div class="character-result mr-8 text-center">
-                            <div class="character-image-result h-32 w-32 bg-gray-700 rounded-full mx-auto mb-4"></div>
-                            <h4 class="character-name-result text-xl font-bold">Character 1</h4>
+                <!-- Blog Post 2 -->
+                <article class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <a href="naruto-vs-ichigo.html" class="block">
+                        <div class="h-48 bg-gray-700 flex items-center justify-center">
+                            <p class="text-gray-400 text-center px-4">Naruto vs Ichigo Battle Image</p>
                         </div>
-                        <div class="vs-badge flex items-center justify-center h-16 w-16 bg-red-600 rounded-full text-xl font-bold">VS</div>
-                        <div class="character-result ml-8 text-center">
-                            <div class="character-image-result h-32 w-32 bg-gray-700 rounded-full mx-auto mb-4"></div>
-                            <h4 class="character-name-result text-xl font-bold">Character 2</h4>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 hover:text-yellow-400">Naruto vs Ichigo: Battle of the Protagonists</h3>
+                            <p class="text-gray-400 mb-4">Comparing the powers and abilities of Naruto Uzumaki and Bleach's Ichigo Kurosaki.</p>
+                            <div class="flex items-center text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i> Dec 10, 2023</span>
+                                <span class="mx-2">•</span>
+                                <span><i class="far fa-clock mr-1"></i> 7 min read</span>
+                            </div>
                         </div>
-                    </div>
-                    <div id="comparison-result" class="p-4 bg-gray-700 rounded-lg">
-                        <p id="results-intro" class="text-center mb-4">Comparison results will appear here.</p>
-                        <div class="loader hidden">Analyzing battle outcome...</div>
-                        <div id="result-content" class="prose prose-lg prose-invert max-w-none">
-                            <!-- AI-generated comparison will appear here -->
+                    </a>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <a href="luffy-vs-deku.html" class="block">
+                        <div class="h-48 bg-gray-700 flex items-center justify-center">
+                            <p class="text-gray-400 text-center px-4">Luffy vs Deku Battle Image</p>
                         </div>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <div id="winner-badge" class="inline-block bg-gradient-to-r from-yellow-400 to-red-500 text-white font-bold py-2 px-6 rounded-full shadow-lg hidden">
-                            <i class="fas fa-trophy mr-2"></i> <span id="winner-name">Character Name</span> Wins!
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 hover:text-yellow-400">Luffy vs Deku: Rubber Man vs One For All</h3>
+                            <p class="text-gray-400 mb-4">Analyzing a hypothetical battle between One Piece's Monkey D. Luffy and My Hero Academia's Izuku Midoriya.</p>
+                            <div class="flex items-center text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i> Dec 5, 2023</span>
+                                <span class="mx-2">•</span>
+                                <span><i class="far fa-clock mr-1"></i> 6 min read</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </a>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <a href="eren-vs-tanjiro.html" class="block">
+                        <div class="h-48 bg-gray-700 flex items-center justify-center">
+                            <p class="text-gray-400 text-center px-4">Eren vs Tanjiro Battle Image</p>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 hover:text-yellow-400">Eren Yeager vs Tanjiro Kamado: Titan vs Demon Slayer</h3>
+                            <p class="text-gray-400 mb-4">Comparing the strengths and weaknesses of Attack on Titan's Eren and Demon Slayer's Tanjiro.</p>
+                            <div class="flex items-center text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i> Nov 28, 2023</span>
+                                <span class="mx-2">•</span>
+                                <span><i class="far fa-clock mr-1"></i> 7 min read</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <a href="top-anime-battles.html" class="block">
+                        <div class="h-48 bg-gray-700 flex items-center justify-center">
+                            <p class="text-gray-400 text-center px-4">Top Anime Battles Image</p>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 hover:text-yellow-400">Top 10 Most Requested Anime Character Battles</h3>
+                            <p class="text-gray-400 mb-4">A roundup of the most popular anime character matchups fans want to see analyzed.</p>
+                            <div class="flex items-center text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i> Nov 20, 2023</span>
+                                <span class="mx-2">•</span>
+                                <span><i class="far fa-clock mr-1"></i> 10 min read</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                    <a href="anime-power-scaling.html" class="block">
+                        <div class="h-48 bg-gray-700 flex items-center justify-center">
+                            <p class="text-gray-400 text-center px-4">Anime Power Scaling Image</p>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 hover:text-yellow-400">Understanding Anime Power Scaling: How We Compare Characters</h3>
+                            <p class="text-gray-400 mb-4">An explanation of how we analyze and compare characters from different anime universes.</p>
+                            <div class="flex items-center text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i> Nov 15, 2023</span>
+                                <span class="mx-2">•</span>
+                                <span><i class="far fa-clock mr-1"></i> 9 min read</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
             </section>
 
-            <!-- About Section -->
-            <section id="about" class="mb-12">
-                <h3 class="text-2xl font-bold mb-6">About Anime Battle Comparer</h3>
-                <div class="bg-gray-800 p-6 rounded-lg shadow-xl">
-                    <p class="mb-4">Anime Battle Comparer uses advanced AI to analyze and compare anime characters' powers, abilities, and strengths to determine who would win in a hypothetical battle.</p>
-                    <p class="mb-4">Our AI considers various factors including:</p>
-                    <ul class="list-disc pl-6 mb-4">
-                        <li>Character's canonical powers and abilities</li>
-                        <li>Battle experience and fighting style</li>
-                        <li>Special techniques and transformations</li>
-                        <li>Weaknesses and limitations</li>
-                        <li>Past battle performances</li>
-                    </ul>
-                    <p>The analysis is for entertainment purposes only and represents our AI's best assessment based on available information about the characters.</p>
-                </div>
-            </section>
-
-            <!-- Google Ad -->
-            <div class="ad-container my-8 text-center">
-                <!-- Google AdSense Ad Unit -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
-                     data-ad-slot="YOUR_AD_SLOT_ID"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-
-            <!-- Contact Section -->
-            <section id="contact" class="mb-12">
-                <h3 class="text-2xl font-bold mb-6">Contact Us</h3>
-                <div class="bg-gray-800 p-6 rounded-lg shadow-xl">
-                    <form id="contact-form" class="space-y-4">
-                        <div>
-                            <label class="block text-gray-300 mb-2">Name</label>
-                            <input type="text" class="w-full bg-gray-700 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Your name">
-                        </div>
-                        <div>
-                            <label class="block text-gray-300 mb-2">Email</label>
-                            <input type="email" class="w-full bg-gray-700 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Your email">
-                        </div>
-                        <div>
-                            <label class="block text-gray-300 mb-2">Message</label>
-                            <textarea class="w-full bg-gray-700 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-purple-500 h-32" placeholder="Your message"></textarea>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full transition-colors shadow-lg">
-                                <i class="fas fa-paper-plane mr-2"></i> Send Message
-                            </button>
-                        </div>
+            <!-- Newsletter Signup -->
+            <section class="bg-purple-900 p-8 rounded-lg shadow-xl mb-12">
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold mb-4">Subscribe to Our Newsletter</h3>
+                    <p class="text-gray-300 mb-6">Get the latest anime battle analyses and character comparisons delivered to your inbox!</p>
+                    <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+                        <input type="email" placeholder="Your email address" class="flex-grow px-4 py-2 rounded-l focus:outline-none focus:ring-2 focus:ring-yellow-500 text-gray-900">
+                        <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold px-6 py-2 rounded-r transition-colors">Subscribe</button>
                     </form>
                 </div>
             </section>
@@ -254,7 +227,5 @@
             </div>
         </footer>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
