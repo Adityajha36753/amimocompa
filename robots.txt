@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Main sitemap index
+Sitemap: https://animebattlecomparer.com/sitemap-index.xml
+
+# Individual sitemaps
+Sitemap: https://animebattlecomparer.com/sitemap.xml
+Sitemap: https://animebattlecomparer.com/blog-sitemap.xml
+Sitemap: https://animebattlecomparer.com/battles-sitemap.xml
+
+# Disallow crawling of admin or private areas if they exist in the future
+# Disallow: /admin/
+# Disallow: /private/

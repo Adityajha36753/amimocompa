@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://animebattlecomparer.com/sitemap.xml</loc>
+    <lastmod>2024-06-01</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://animebattlecomparer.com/blog-sitemap.xml</loc>
+    <lastmod>2024-06-01</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://animebattlecomparer.com/battles-sitemap.xml</loc>
+    <lastmod>2024-06-01</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://animebattlecomparer.com/characters-sitemap.xml</loc>
+    <lastmod>2024-06-01</lastmod>
+  </sitemap>
+</sitemapindex>
